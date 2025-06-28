@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "Červená čočka s kokosovým mlékem a mraženou zeleninou",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": ["vegan"],
+    "prep_method": ["one_pot"],
+    "side_dish": ["rice"],
+    "ingredients": [
+      "300 g červené čočky",
+      "400 ml kokosového mléka",
+      "2 lžíce červené curry pasty",
+      "300 g mražené zeleninové směsi (např. hrášek, mrkev, kukuřice)",
+      "sůl podle chuti"
+    ],
+    "instructions": "Do většího hrnce nasyp červenou čočku, přidej kokosové mléko, curry pastu a zalij dvojnásobným množstvím vody. Přiveď k varu a vař na středním plameni asi 10 minut. Poté přidej mraženou zeleninu a pokračuj ve vaření dalších 5–10 minut, dokud čočka nezměkne a směs nezhoustne. Dochut solí a podávej s vařenou rýží.",
+    "tip": "Pokud máš rád ostřejší jídla, přidej ještě trochu chilli nebo zázvorového prášku."
+  },
+  {
+    "id": 2,
+    "title": "Zapečené gnocchi s rajčatovou omáčkou, tuňákem a mozzarellou",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "medium",
+    "type": ["with_meat"],
+    "prep_method": ["oven"],
+    "side_dish": ["none"],
+    "ingredients": [
+      "500 g hotových bramborových gnocchi",
+      "1 sklenice rajčatové omáčky s bazalkou",
+      "1 konzerva tuňáka v oleji",
+      "125 g mozzarelly (natrhané rukou)",
+      "olivový olej na vymazání pekáče"
+    ],
+    "instructions": "Troubu předehřej na 180 °C. Gnocchi nasyp do lehce vymazaného pekáče, přidej rajčatovou omáčku a scezeného tuňáka. Promíchej, navrch rozděl kousky mozzarelly a dej zapéct na 20 minut. Podávej teplé, nejlépe ihned po upečení.",
+    "tip": "Pokud chceš navrch křupavější vrstvu, posyp ještě trochou strouhaného sýra nebo drobenkou z pečiva."
+  },
+  {
+    "id": 3,
+    "title": "Tortilly s cizrnou, hummusem a zeleninou",
+    "prep_time": "under_10",
+    "portions": 4,
+    "difficulty_level": "very_easy",
+    "type": ["vegan"],
+    "prep_method": ["no_cooking"],
+    "side_dish": ["none"],
+    "ingredients": [
+      "4 tortilly",
+      "1 konzerva cizrny (scezená)",
+      "4 lžíce hummusu",
+      "1 balení mražené grilované zeleninové směsi (již ohřáté)"
+    ],
+    "instructions": "Cizrnu smíchej s hummusem a ohřátou grilovanou zeleninou. Směs rozděl na tortilly, zaroluj do tvaru wrapu a podávej. Lze podávat teplé i studené, skvělé i jako oběd s sebou.",
+    "tip": "Můžeš přidat i trochu citronové šťávy nebo kapku olivového oleje pro svěžejší chuť."
+  },
+  {
+    "id": 4,
+    "title": "Fazolová pánev s vejci a kukuřicí",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": ["with_meat"],
+    "prep_method": ["pan"],
+    "side_dish": ["bread"],
+    "ingredients": [
+      "2 konzervy červených fazolí",
+      "1 konzerva kukuřice",
+      "4 vařená vejce (oloupaná, natrhaná rukou)",
+      "2 lžíce olivového oleje",
+      "1 lžička uzené papriky"
+    ],
+    "instructions": "Na pánvi rozehřej olivový olej, přidej scezené fazole a kukuřici. Krátce opeč a přidej natrhaná vejce. Dochut uzenou paprikou a případně solí. Promíchej a podávej s čerstvým pečivem.",
+    "tip": "Zkus přidat pár kapek limetkové šťávy pro pikantnější chuť."
+  },
+  {
+    "id": 5,
+    "title": "Kuskus s tofu, hráškem a hoisin omáčkou",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": ["vegan"],
+    "prep_method": ["one_pot"],
+    "side_dish": ["none"],
+    "ingredients": [
+      "250 g kuskusu",
+      "1 balení uzeného tofu (rozdrceného rukou)",
+      "1 hrnek mraženého hrášku",
+      "2 lžíce hoisin omáčky",
+      "1 lžíce sezamového oleje"
+    ],
+    "instructions": "Kuskus nasyp do mísy a zalij vroucí vodou v poměru 1:1. Zakryj a nech 5 minut odstát. Mezitím krátce ohřej hrášek. Vše smíchej s tofu, přidej hoisin omáčku a dochuť sezamovým olejem. Ihned podávej nebo ulož do krabičky na později.",
+    "tip": "Skvělé i studené jako sytý salát – ideální do práce."
+  },
+  {
+    "id": 6,
+    "title": "Polenta s fazolemi a sušenými rajčaty",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": ["vegan"],
+    "prep_method": ["one_pot"],
+    "side_dish": ["none"],
+    "ingredients": [
+      "1 hrnek instantní polenty",
+      "2 hrnky vody",
+      "1 konzerva bílých fazolí",
+      "5 sušených rajčat v oleji (natrhaných rukou)"
+    ],
+    "instructions": "V hrnci přiveď vodu k varu, vmíchej polentu a míchej do zhoustnutí. Přidej scezené fazole a natrhaná sušená rajčata. Promíchej a podávej teplé.",
+    "tip": "Můžeš na závěr pokapat olivovým olejem s kapkou citronu pro zvýraznění chutí."
+  },
+  {
+    "id": 7,
+    "title": "Bulgur s grilovanou zeleninou a fetou",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": ["meatless"],
+    "prep_method": ["one_pot"],
+    "side_dish": ["none"],
+    "ingredients": [
+      "250 g bulguru",
+      "400 g mražené grilované zeleniny (např. paprika, lilek, cuketa)",
+      "150 g fety (rozdrobené)",
+      "2 lžíce olivového oleje"
+    ],
+    "instructions": "Bulgur zalij vroucí vodou a nech 10 minut pod pokličkou změknout. Mezitím ohřej zeleninu na pánvi nebo v mikrovlnce. Vše smíchej, přidej olivový olej a rozdrobenou fetu. Podávej teplé nebo studené.",
+    "tip": "Výborné i druhý den studené jako sytý salát do práce nebo na cesty."
+  }
+]

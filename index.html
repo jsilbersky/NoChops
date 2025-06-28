@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuchařka bez krájení</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    #bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffb703;
+      display: flex;
+      justify-content: space-around;
+      padding: 0.5rem 0;
+      border-top: 1px solid #ddd;
+    }
+    #bottom-nav button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    #bottom-nav button:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-content">
+    <h1 style="text-align: center;">🧑‍🍳 Kuchařka bez krájení</h1>
+
+    <section id="filters" class="filters">
+      <div class="filter">
+        <p><strong>⏱️ Doba přípravy:</strong></p>
+        <select id="prep-time">
+          <option value="">– Vyber –</option>
+          <option value="under_10">Do 10 minut</option>
+          <option value="under_20">Do 20 minut</option>
+          <option value="over_20">Do 30 minut</option>
+        </select>
+      </div>
+      <div class="filter">
+        <p><strong>🧩 Náročnost:</strong></p>
+        <select id="difficulty-level">
+          <option value="">– Vyber –</option>
+          <option value="very_easy">Smíchej a jez</option>
+          <option value="easy">Vaření pro líné dny</option>
+          <option value="medium">Skoro jako šéfkuchař</option>
+        </select>
+      </div>
+      <div class="filter">
+        <p><strong>🍴 Typ receptu:</strong></p>
+        <fieldset class="options">
+          <label><input type="checkbox" value="with_meat"> S masem</label>
+          <label><input type="checkbox" value="meatless"> Bez masa</label>
+          <label><input type="checkbox" value="vegan"> Veganské</label>
+        </fieldset>
+      </div>
+      <div class="filter">
+        <p><strong>🔧 Co musím udělat:</strong></p>
+        <fieldset class="options">
+          <label><input type="checkbox" value="one_pot"> Vařit v jednom hrnci</label>
+          <label><input type="checkbox" value="pan"> Orestovat na pánvi</label>
+          <label><input type="checkbox" value="oven"> Potřebuji troubu</label>
+          <label><input type="checkbox" value="no_cooking"> Bez vaření</label>
+        </fieldset>
+      </div>
+      <div class="filter">
+        <p><strong>🍽️ Příloha:</strong></p>
+        <fieldset class="options">
+          <label><input type="checkbox" value="bread"> Pečivo</label>
+          <label><input type="checkbox" value="rice"> Rýže</label>
+          <label><input type="checkbox" value="salad"> Salát</label>
+          <label><input type="checkbox" value="pasta"> Těstoviny</label>
+          <label><input type="checkbox" value="none"> Bez přílohy</label>
+        </fieldset>
+      </div>
+    </section>
+
+    <section id="selected-filters"></section>
+    <section id="recipe-list"></section>
+
+    <section id="favorites-page" style="display: none;">
+      <h2>💛 Oblíbené recepty</h2>
+      <div id="favorites-list"></div>
+    </section>
+
+    <section id="settings-page" style="display: none;">
+      <h2>⚙️ Nastavení</h2>
+      <p>Možnosti nastavení budou doplněny později.</p>
+    </section>
+  </div>
+
+  <nav id="bottom-nav">
+    <button onclick="showPage('main')">📖 Recepty</button>
+    <button onclick="showPage('favorites')">💛 Oblíbené</button>
+    <button onclick="showPage('settings')">⚙️ Nastavení</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

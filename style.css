@@ -1,0 +1,147 @@
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffb703;
+  color: #fff;
+  margin: 0;
+}
+
+#main-content {
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #fff3e0;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  border-radius: 0.5rem;
+}
+
+.filter {
+  width: 100%;
+  text-align: center;
+}
+
+.filters select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+fieldset {
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+label:hover {
+  background-color: #ffe5b4;
+}
+
+label input[type="checkbox"] {
+  accent-color: #ffb703;
+  cursor: pointer;
+}
+
+/* Recipe cards */
+.recipe {
+  background-color: white;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.recipe h3 {
+  margin: 0 0 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe .heart {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.recipe .heart:hover {
+  color: red;
+}
+
+.recipe-details {
+  display: none;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.recipe-details ul {
+  padding-left: 1.2rem;
+}
+
+.recipe-details p {
+  margin: 0.5rem 0;
+}
+
+#recipes {
+  padding-bottom: 2rem;
+}
+
+#selected-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 1rem;
+}
+
+.badge {
+  background-color: #eee;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge strong {
+  margin-left: 6px;
+  color: red;
+}
