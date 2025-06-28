@@ -1,39 +1,22 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kuchařka bez krájení</title>
-  <link rel="stylesheet" href="style.css">
+
+  <!-- Google font Inter -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    #bottom-nav {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #ffb703;
-      display: flex;
-      justify-content: space-around;
-      padding: 0.5rem 0;
-      border-top: 1px solid #ddd;
-    }
-    #bottom-nav button {
-      background: none;
-      border: none;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    #bottom-nav button:hover {
-      text-decoration: underline;
-    }
-  </style>
+
+  <!-- Vlastní CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div id="main-content">
-    <h1 style="text-align: center;">🧑‍🍳 Kuchařka bez krájení</h1>
+    <h1>🧑‍🍳 Kuchařka bez krájení</h1>
 
+    <!-- Filtrovací sekce -->
     <section id="filters" class="filters">
       <div class="filter">
         <p><strong>⏱️ Doba přípravy:</strong></p>
@@ -44,6 +27,7 @@
           <option value="over_20">Do 30 minut</option>
         </select>
       </div>
+
       <div class="filter">
         <p><strong>🧩 Náročnost:</strong></p>
         <select id="difficulty-level">
@@ -53,6 +37,7 @@
           <option value="medium">Skoro jako šéfkuchař</option>
         </select>
       </div>
+
       <div class="filter">
         <p><strong>🍴 Typ receptu:</strong></p>
         <fieldset class="options">
@@ -61,6 +46,7 @@
           <label><input type="checkbox" value="vegan"> Veganské</label>
         </fieldset>
       </div>
+
       <div class="filter">
         <p><strong>🔧 Co musím udělat:</strong></p>
         <fieldset class="options">
@@ -70,6 +56,7 @@
           <label><input type="checkbox" value="no_cooking"> Bez vaření</label>
         </fieldset>
       </div>
+
       <div class="filter">
         <p><strong>🍽️ Příloha:</strong></p>
         <fieldset class="options">
@@ -82,26 +69,33 @@
       </div>
     </section>
 
+    <!-- Vybrané filtry -->
     <section id="selected-filters"></section>
+
+    <!-- Výpis receptů -->
     <section id="recipe-list"></section>
 
-    <section id="favorites-page" style="display: none;">
+    <!-- Oblíbené recepty -->
+    <section id="favorites-page" class="hidden">
       <h2>💛 Oblíbené recepty</h2>
       <div id="favorites-list"></div>
     </section>
 
-    <section id="settings-page" style="display: none;">
+    <!-- Nastavení -->
+    <section id="settings-page" class="hidden">
       <h2>⚙️ Nastavení</h2>
       <p>Možnosti nastavení budou doplněny později.</p>
     </section>
   </div>
 
+  <!-- Spodní navigace -->
   <nav id="bottom-nav">
     <button onclick="showPage('main')">📖 Recepty</button>
     <button onclick="showPage('favorites')">💛 Oblíbené</button>
     <button onclick="showPage('settings')">⚙️ Nastavení</button>
   </nav>
 
+  <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

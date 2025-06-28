@@ -1,15 +1,29 @@
+:root {
+  --bg-main: #fdfaf6;
+  --bg-card: #fffefb;
+  --text-main: #333;
+  --primary: #f4a261;
+  --primary-dark: #e76f51;
+  --secondary: #2a9d8f;
+  --success: #6dbf60;
+  --success-border: #4caf50;
+  --warning: #ffe0e0;
+  --warning-dark: #f44336;
+  --badge-bg: #eee;
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: var(--bg-main);
+  color: var(--text-main);
 }
 
 h1 {
   text-align: center;
   padding: 1rem;
-  background-color: #ffb703;
+  background-color: var(--primary);
   color: #fff;
   margin: 0;
 }
@@ -20,12 +34,46 @@ h1 {
   padding: 1rem;
 }
 
+/* Spodní navigace */
+#bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+}
+
+#bottom-nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#bottom-nav button:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}
+
+/* Skrytá sekce (dříve inline style) */
+.hidden {
+  display: none !important;
+}
+
+/* Filtrovací sekce */
 .filters {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  background-color: #fff3e0;
+  background-color: var(--bg-card);
   padding: 1rem;
   border-bottom: 1px solid #eee;
   border-radius: 0.5rem;
@@ -69,21 +117,21 @@ label {
 }
 
 label:hover {
-  background-color: #ffe5b4;
+  background-color: #fce7c6;
 }
 
 label input[type="checkbox"] {
-  accent-color: #ffb703;
+  accent-color: var(--primary);
   cursor: pointer;
 }
 
-/* Recipe cards */
+/* Recepty */
 .recipe {
-  background-color: white;
+  background-color: var(--bg-card);
   margin-bottom: 3rem;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -102,11 +150,11 @@ label input[type="checkbox"] {
 }
 
 .recipe .heart:hover {
-  color: red;
+  color: var(--primary-dark);
 }
 
-.recipe-details {
-  display: none;
+.recipe-detail {
+  display: block;
   margin-top: 1rem;
   font-size: 0.95rem;
 }
@@ -123,6 +171,7 @@ label input[type="checkbox"] {
   padding-bottom: 2rem;
 }
 
+/* Filtrovací štítky */
 #selected-filters {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +180,7 @@ label input[type="checkbox"] {
 }
 
 .badge {
-  background-color: #eee;
+  background-color: var(--badge-bg);
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -143,5 +192,53 @@ label input[type="checkbox"] {
 
 .badge strong {
   margin-left: 6px;
-  color: red;
+  color: var(--primary-dark);
+}
+
+/* Výchozí tlačítko – Přidat do oblíbených */
+button.favorite {
+  font-size: 0.95rem;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+button.favorite:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Přidáno do oblíbených */
+button.favorite.added {
+  background-color: var(--success);
+  border: none;
+  color: white;
+  cursor: default;
+  font-weight: bold;
+}
+
+button.favorite.added:hover {
+  background-color: var(--success);
+}
+
+/* Odebrat z oblíbených */
+button.remove-favorite {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+  background-color: var(--warning);
+  border: 1px solid var(--warning-dark);
+  border-radius: 1.5rem;
+  color: var(--warning-dark);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button.remove-favorite:hover {
+  background-color: #ffcdd2;
 }

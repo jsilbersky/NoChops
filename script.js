@@ -119,7 +119,7 @@ function renderRecipes() {
         <h3>${r.title}</h3>
         ${heartHTML}
       </div>
-      <div class="recipe-detail hidden">
+      <div class="recipe-detail">
         <p><strong>⏱️ Doba přípravy:</strong> ${translatePrepTime(r.prep_time)}</p>
         <p><strong>🧩 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
         <p><strong>🍴 Typ:</strong> ${r.type.map(translateType).join(", ")}</p>
@@ -229,12 +229,29 @@ function translateSideDish(value) {
 }
 
 function showPage(page) {
-  document.getElementById("filters").style.display = page === "main" ? "block" : "none";
-  document.getElementById("recipe-list").style.display = page === "main" ? "block" : "none";
-  document.getElementById("selected-filters").style.display = page === "main" ? "flex" : "none";
-  document.getElementById("favorites-page").style.display = page === "favorites" ? "block" : "none";
-  document.getElementById("settings-page").style.display = page === "settings" ? "block" : "none";
+  const filters = document.getElementById("filters");
+  const recipeList = document.getElementById("recipe-list");
+  const selectedFilters = document.getElementById("selected-filters");
+  const favoritesPage = document.getElementById("favorites-page");
+  const settingsPage = document.getElementById("settings-page");
 
-  if (page === "favorites") renderFavorites();
-  if (page === "main") renderRecipes();
+  // Nejprve vše schováme
+  filters.classList.add("hidden");
+  recipeList.classList.add("hidden");
+  selectedFilters.classList.add("hidden");
+  favoritesPage.classList.add("hidden");
+  settingsPage.classList.add("hidden");
+
+  // A zobrazíme jen požadovanou sekci
+  if (page === "main") {
+    filters.classList.remove("hidden");
+    recipeList.classList.remove("hidden");
+    selectedFilters.classList.remove("hidden");
+    renderRecipes();
+  } else if (page === "favorites") {
+    favoritesPage.classList.remove("hidden");
+    renderFavorites();
+  } else if (page === "settings") {
+    settingsPage.classList.remove("hidden");
+  }
 }
