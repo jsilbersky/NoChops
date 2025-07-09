@@ -5,9 +5,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
-    "type": ["vegan"],
-    "prep_method": ["one_pot"],
-    "side_dish": ["rice"],
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "rice"
+    ],
     "ingredients": [
       "300 g červené čočky",
       "400 ml kokosového mléka",
@@ -24,9 +30,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "medium",
-    "type": ["with_meat"],
-    "prep_method": ["oven"],
-    "side_dish": ["none"],
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "none"
+    ],
     "ingredients": [
       "500 g hotových bramborových gnocchi",
       "1 sklenice rajčatové omáčky s bazalkou",
@@ -43,9 +55,15 @@
     "prep_time": "under_10",
     "portions": 4,
     "difficulty_level": "very_easy",
-    "type": ["vegan"],
-    "prep_method": ["no_cooking"],
-    "side_dish": ["none"],
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "no_cooking"
+    ],
+    "side_dish": [
+      "none"
+    ],
     "ingredients": [
       "4 tortilly",
       "1 konzerva cizrny (scezená)",
@@ -61,9 +79,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
-    "type": ["with_meat"],
-    "prep_method": ["pan"],
-    "side_dish": ["bread"],
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "pan"
+    ],
+    "side_dish": [
+      "bread"
+    ],
     "ingredients": [
       "2 konzervy červených fazolí",
       "1 konzerva kukuřice",
@@ -80,9 +104,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
-    "type": ["vegan"],
-    "prep_method": ["one_pot"],
-    "side_dish": ["none"],
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "none"
+    ],
     "ingredients": [
       "250 g kuskusu",
       "1 balení uzeného tofu (rozdrceného rukou)",
@@ -99,9 +129,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
-    "type": ["vegan"],
-    "prep_method": ["one_pot"],
-    "side_dish": ["none"],
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "none"
+    ],
     "ingredients": [
       "1 hrnek instantní polenty",
       "2 hrnky vody",
@@ -117,9 +153,15 @@
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
-    "type": ["meatless"],
-    "prep_method": ["one_pot"],
-    "side_dish": ["none"],
+    "type": [
+      "meatless"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "none"
+    ],
     "ingredients": [
       "250 g bulguru",
       "400 g mražené grilované zeleniny (např. paprika, lilek, cuketa)",
@@ -128,5 +170,750 @@
     ],
     "instructions": "Bulgur zalij vroucí vodou a nech 10 minut pod pokličkou změknout. Mezitím ohřej zeleninu na pánvi nebo v mikrovlnce. Vše smíchej, přidej olivový olej a rozdrobenou fetu. Podávej teplé nebo studené.",
     "tip": "Výborné i druhý den studené jako sytý salát do práce nebo na cesty."
-  }
+  },
+  {
+    "id": 8,
+    "title": "Těstoviny s pestem, čočkou a sušenými rajčaty",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "pasta"
+    ],
+    "ingredients": [
+      "200 g těstovin (např. fusilli nebo penne)",
+      "1 konzerva sterilované čočky",
+      "2 lžíce bazalkového pesta (bez sýra)",
+      "4 sušená rajčata v oleji (natrhaná rukou)"
+    ],
+    "instructions": "Těstoviny uvař podle návodu. Mezitím slij čočku a natrhej sušená rajčata. Uvařené těstoviny sceď, vrať do hrnce, přidej pesto, čočku a rajčata. Promíchej a ihned podávej.",
+    "tip": "Můžeš přidat pár kapek citronu nebo lžičku výživových kvasnic pro sýrovou chuť."
+  },
+{
+  "id": 9,
+  "title": "Krémové gnocchi se špenátem a sýrem",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": [
+    "meatless"
+  ],
+  "prep_method": [
+    "pan"
+  ],
+  "side_dish": [
+    "none"
+  ],
+  "ingredients": [
+    "500 g chlazených gnocchi",
+    "100 g čerstvého nebo mraženého listového špenátu",
+    "150 ml smetany na vaření",
+    "100 g strouhaného sýra (např. parmezán)",
+    "sůl a pepř",
+    "olej na osmažení"
+  ],
+  "instructions": "Na pánvi rozehřej trochu másla nebo oleje, přidej gnocchi a pár minut opékej. Přidej špenát, promíchej a nech krátce podusit. Zalij smetanou, přidej sýr, dochuť solí a pepřem a nech prohřát, dokud omáčka nezhoustne. Ihned podávej.",
+  "tip": "Pokud chceš verzi s masem, můžeš přidat na kousky natrhaného pečeného kuřete nebo šunku."
+},
+  {
+    "id": 10,
+    "title": "Zapečená polenta s fazolemi a sýrem",
+    "prep_time": "over_20",
+    "portions": 4,
+    "difficulty_level": "medium",
+    "type": [
+      "meatless"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "salad"
+    ],
+    "ingredients": [
+      "1 hrnek instantní polenty",
+      "2 hrnky vody",
+      "1 konzerva červených fazolí",
+      "100 g nastrouhaného sýra",
+      "1 lžíce olivového oleje"
+    ],
+    "instructions": "Připrav polentu podle návodu (zalij vroucí vodou a míchej do zhoustnutí). Vmíchej scezené fazole, přendej do vymazané zapékací misky a navrch dej sýr. Peč v troubě na 180 °C cca 20 minut. Podávej se salátem.",
+    "tip": "Místo sýra můžeš použít i strouhaný vegan blok nebo smetanový sýr pro krémovou variantu."
+  },
+  {
+    "id": 11,
+    "title": "Pečené kuře s rajčaty a olivami",
+    "prep_time": "over_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "none"
+    ],
+    "ingredients": [
+      "4 kuřecí stehna",
+      "200 g cherry rajčat",
+      "100 g černých oliv",
+      "2 lžíce olivového oleje",
+      "italské bylinky"
+    ],
+    "instructions": "Předehřej troubu na 200 °C. Do pekáče dej stehna, rajčata, olivy, olej a bylinky. Peč 40 minut do zlatova. Podávej teplé.",
+    "tip": "Podávej s čerstvým chlebem nebo kuskusem."
+  },
+  {
+    "id": 12,
+    "title": "Arroz con pollo po česku",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "none"
+    ],
+    "ingredients": [
+      "2 kuřecí stehna",
+      "1 hrnek rýže",
+      "300 g mražené zeleniny",
+      "500 ml vývaru",
+      "sůl, pepř"
+    ],
+    "instructions": "Do hrnce dej vše najednou, přiveď k varu a vař pod pokličkou 20 minut. Nech dojít a podávej.",
+    "tip": "Rýži můžeš nahradit bulgurem nebo kuskusem."
+  },
+  {
+    "id": 13,
+    "title": "Zapečené těstoviny s klobásou a paprikou",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "medium",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "none"
+    ],
+    "ingredients": [
+      "300 g těstovin",
+      "200 g mražené paprikové směsi",
+      "150 g plátkové klobásy",
+      "1 sklenice rajčatové omáčky",
+      "sýr na posypání"
+    ],
+    "instructions": "Uvař těstoviny, smíchej se zeleninou, klobásou a omáčkou. Zapékej 15 minut při 180 °C.",
+    "tip": "Použij sýrový mix na gratinování pro extra chuť."
+  },
+ {
+  "id": 14,
+  "title": "Krémová rajčatová omáčka s balsamicem a slunečnicovými semínky",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": [
+    "vegan"
+  ],
+  "prep_method": [
+    "one_pot"
+  ],
+  "side_dish": [
+    "pasta"
+  ],
+  "ingredients": [
+    "1 sklenice pasírovaných rajčat",
+    "1 lžíce olivového oleje",
+    "1 lžička sušeného česneku",
+    "1/2 lžičky sušeného oregana",
+    "1 lžička balzamikového octa",
+    "1 lžíce slunečnicových semínek (nebo nasekaných mandlí)",
+    "2 lžíce rostlinné smetany nebo bílého jogurtu",
+    "špetka cukru",
+    "sůl a pepř podle chuti"
+  ],
+  "instructions": "Na pánvi rozehřej olej, přidej česnek a oregano a krátce opeč. Přilij rajčata, ocet, cukr a semínka. Vař na mírném ohni 8–10 minut. Nakonec vmíchej smetanu a dochuť solí a pepřem. Promíchej s těstovinami a podávej.",
+  "tip": "Pro extra chuť přidej pár kapek citronu nebo navrch pár lístků bazalky (čerstvé nebo sušené)."
+},
+  {
+    "id": 15,
+    "title": "No-chop polévka z máslové dýně",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "bread"
+    ],
+    "ingredients": [
+      "1 balení mražené kostky z máslové dýně",
+      "1 cibulová pasta nebo granulovaný prášek",
+      "1 plechovka kokosového mléka",
+      "700 ml zeleninového vývaru",
+      "sůl a pepř podle chuti"
+    ],
+    "instructions": "Vše dej do hrnce, přiveď k varu a vař cca 15 minut. Poté rozmixuj tyčovým mixérem. Dochut solí a pepřem.",
+    "tip": "Na servírování můžeš přidat lžíci rostlinné smetany nebo krutony."
+  },
+  {
+  "id": 16,
+  "title": "Jarní frittata bez krájení",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "medium",
+  "type": [
+    "meatless"
+  ],
+  "prep_method": [
+    "oven",
+    "pan"
+  ],
+  "side_dish": [
+    "none"
+  ],
+  "ingredients": [
+    "1 lžíce oleje nebo másla",
+    "200 g fazolek",
+    "150 g  hrášku",
+    "100 g růžičkové kapusty (nebo jiná listová zelenina)",
+    "100 g čerstvého baby špenátu",
+    "6 vajec",
+    "100 g bílého jogurtu",
+    "100 g kozího sýra",
+    "sůl a pepř podle chuti",
+    "čerstvé bylinky na ozdobu (např. petržel, pažitka)"
+  ],
+  "instructions": "Předehřej troubu na 200 ˚C. Na pánvi rozehřej olej nebo máslo. Přidej fazolky, hrášek a kapustu, restuj 1–2 minuty. Přidej špenát, osol, opepři a dus další 1–2 minuty. Směs vyklop do zapíkací nádoby. V míse rozšlehej vejce s jogurtem, osol a opepři. Nalij směs na zeleninu, posyp kozím sýrem a peč 15–20 minut.",
+  "tip": "Před podáváním ozdob čerstvými bylinkami. Skvělé k snídani i večeři."
+}
+,
+{
+  "id": 17,
+  "title": "Bramborovo-dýňový salát s fetou a pistáciemi",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "medium",
+  "type": [
+    "meatless"
+  ],
+  "prep_method": [
+    "oven"
+  ],
+  "side_dish": [
+    "none"
+  ],
+  "ingredients": [
+    "400 g předvařených baby brambor",
+    "300 g mražené dýně (kostky)",
+    "100 g sýru feta (rozdrobeného)",
+    "2 hrsti rukoly nebo baby špenátu",
+    "2 lžíce olivového oleje",
+    "1 lžíce balzamikového octa",
+    "2 lžíce nesolených pistácií (nebo slunečnicových semínek)",
+    "sůl a pepř"
+  ],
+  "instructions": "Troubu předehřej na 200 °C. Dýni promíchej s olivovým olejem, solí a pepřem, dej péct na 20 minut. Přidej brambory a dopeč dalších 10 minut. V míse smíchej pečenou zeleninu s rukolou, pokapej balzamikem, posyp fetou a pistáciemi. Podávej teplé.",
+  "tip": "Dýni můžeš nahradit mraženou batátovou směsí nebo mrkví. Pistácie dodají šmrnc, ale použít lze i semínka."
+},
+  {
+    "id": 18,
+    "title": "Gnocchi se sýrem feta a hráškem",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "meatless"
+    ],
+    "prep_method": [
+      "pan"
+    ],
+    "side_dish": [
+      "none"
+    ],
+    "ingredients": [
+      "400 g gnocchi",
+      "1 hrnek mraženého hrášku",
+      "150 g fety (rozdrobené)",
+      "1 lžíce másla"
+    ],
+    "instructions": "Na pánvi rozehřej máslo, přidej gnocchi a orestuj. Přidej hrášek, krátce prohřej. Vmíchej fetu a ihned podávej.",
+    "tip": "Dochucuj pepřem nebo citronovou šťávou."
+  },
+  {
+    "id": 19,
+    "title": "Krémová polévka z červené čočky a rajčat",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "vegan"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "bread"
+    ],
+    "ingredients": [
+      "150 g červené čočky",
+      "1 plechovka krájených rajčat",
+      "1 zeleninový bujón",
+      "1 lžička kmínu",
+      "750 ml vody"
+    ],
+    "instructions": "Vše vlož do hrnce, přiveď k varu a vař 15 minut do změknutí čočky. Rozmixuj tyčovým mixérem a podávej.",
+    "tip": "Přidej kokosové mléko pro jemnější chuť."
+  },
+  {
+    "id": 20,
+    "title": "Tortilla wrap s mletým masem, fazolemi a sýrem",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "pan"
+    ],
+    "side_dish": [
+      "none"
+    ],
+    "ingredients": [
+      "4 tortilly",
+      "400 g mletého masa (předvařeného nebo opečeného do zásoby)",
+      "1 konzerva červených fazolí",
+      "100 g strouhaného sýra (např. cheddar)",
+      "1 lžička mletého kmínu",
+      "1 lžička uzené papriky"
+    ],
+    "instructions": "Na pánvi ohřej mleté maso s kořením a scezenými fazolemi. Směs rozděl na tortilly, posyp sýrem, zaroluj a krátce opeč na suché pánvi nebo v kontaktním grilu. Podávej teplé.",
+    "tip": "Můžeš přidat pár kapek limetky nebo lžíci zakysané smetany pro svěžest."
+  },
+  {
+    "id": 21,
+    "title": "Mexická rýžová mísa s mletým hovězím, kukuřicí a rajčaty",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "rice"
+    ],
+    "ingredients": [
+      "300 g uvařené rýže",
+      "300 g mletého hovězího masa (předem opečeného)",
+      "1 konzerva kukuřice",
+      "1 konzerva krájených rajčat",
+      "1 sáček taco koření"
+    ],
+    "instructions": "Všechny ingredience smíchej v hrnci, dochuť taco kořením a krátce prohřej. Podávej teplé v misce nebo zabalené v tortille.",
+    "tip": "Skvělé i jako jídlo s sebou do krabičky."
+  },
+  {
+    "id": 22,
+    "title": "Těstoviny s mletým masem, smetanou a hráškem",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "pasta"
+    ],
+    "ingredients": [
+      "400 g těstovin (např. penne)",
+      "300 g mletého masa (předem opečeného)",
+      "200 ml smetany na vaření",
+      "1 plechovka hrášku",
+      "sůl, pepř"
+    ],
+    "instructions": "Uvař těstoviny, přidej hrášek na poslední 2 minuty varu. Sceď, vrať do hrnce, přidej maso a smetanu, promíchej a dochuť. Krátce prohřej a podávej.",
+    "tip": "Na závěr můžeš přidat i trochu nastrouhaného parmazánu."
+  },
+  {
+    "id": 23,
+    "title": "Zapečené bílé fazole po toskánsku",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "meatless"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "bread"
+    ],
+    "ingredients": [
+      "1 konzerva bílých fazolí",
+      "1 sklenice rajčatové omáčky",
+      "1 lžička italského koření",
+      "50 g strouhaného sýra",
+      "olivový olej na vymazání zapékací misky"
+    ],
+    "instructions": "Všechny suroviny smíchej a dej do zapékací misky. Posyp sýrem a peč 15–20 minut na 180 °C. Podávej s pečivem.",
+    "tip": "Skvělé i jako lehká večeře se salátem."
+  },
+  {
+    "id": 24,
+    "title": "Cajun krevety s rýží a kukuřicí",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "one_pot"
+    ],
+    "side_dish": [
+      "rice"
+    ],
+    "ingredients": [
+      "200 g vařených krevet (mražené nebo chlazené)",
+      "1 lžička cajun koření",
+      "1 konzerva kukuřice",
+      "1 lžíce oleje",
+      "instantní rýže (dle porcí)"
+    ],
+    "instructions": "Na pánvi rozehřej olej, přidej krevety, kukuřici a cajun koření. Krátce opeč a podávej s rýží.",
+    "tip": "Přidej pár kapek citronu pro svěží chuť."
+  },
+{
+  "id": 25,
+  "title": "Křupavá sezamová cizrna s rýží a ponzu omáčkou",
+  "prep_time": "under_10",
+  "portions": 4,
+  "difficulty_level": "very_easy",
+  "type": [
+    "vegan"
+  ],
+  "prep_method": [
+    "pan"
+  ],
+  "side_dish": [
+    "rice"
+  ],
+  "ingredients": [
+    "1 konzerva cizrny (scezená a osušená)",
+    "2 lžíce sójové omáčky",
+    "1 lžička sezamového oleje",
+    "1 lžička agávového sirupu nebo medu",
+    "1 lžička rýžového octa nebo citronové šťávy",
+    "1/2 lžičky uzené papriky nebo chilli vloček (volitelné)",
+    "2 lžíce sezamových semínek",
+    "olej na opékání"
+  ],
+  "instructions": "Na pánvi rozehřej trochu oleje a přidej cizrnu. Restuj 4–5 minut dozlatova. Přidej sójovou omáčku, sezamový olej, agávový sirup, ocet a případně papriku. Promíchej, krátce prohřej a posyp sezamem. Podávej s vařenou rýží.",
+  "tip": "Pro extra chuť můžeš na závěr zakápnout trochou limetkové šťávy nebo posypat praženými arašídy."
+},
+  {
+    "id": 26,
+    "title": "Furikake losos s rýží",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "medium",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "rice"
+    ],
+    "ingredients": [
+      "2 filety lososa",
+      "2 lžíce majonézy",
+      "2 lžíce furikake",
+      "1 lžíce panko strouhanky"
+    ],
+    "instructions": "Potři lososa majonézou, posyp furikake a panko. Peč v troubě na 180 °C asi 15 minut. Podávej s rýží.",
+    "tip": "Výborné i s rychlým okurkovým salátem."
+  },
+  {
+    "id": 27,
+    "title": "Tandoori kuřecí stehna bez krájení",
+    "prep_time": "over_20",
+    "portions": 4,
+    "difficulty_level": "medium",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "oven"
+    ],
+    "side_dish": [
+      "rice"
+    ],
+    "ingredients": [
+      "2 kuřecí stehna",
+      "150 g bílého jogurtu",
+      "1 lžíce tandoori koření",
+      "1 lžíce citronové šťávy (nebo z lahvičky)",
+      "sůl podle chuti"
+    ],
+    "instructions": "Smíchej jogurt, tandoori koření, citron a sůl. Potři tím kuřecí stehna a nech aspoň 30 min marinovat. Peč v troubě na 200 °C cca 40 minut. Podávej s rýží.",
+    "tip": "Pro intenzivnější chuť nech marinovat přes noc."
+  },
+  {
+    "id": 28,
+    "title": "Sladkokyselé masové kuličky s ananasem",
+    "prep_time": "under_20",
+    "portions": 4,
+    "difficulty_level": "easy",
+    "type": [
+      "with_meat"
+    ],
+    "prep_method": [
+      "pan"
+    ],
+    "side_dish": [
+      "rice"
+    ],
+    "ingredients": [
+      "300 g hotových masových kuliček",
+      "1 konzerva ananasu",
+      "100 ml sladkokyselé omáčky (lahvička)",
+      "1 lžíce oleje"
+    ],
+    "instructions": "Na pánvi rozehřej olej, přidej kuličky, ananas i s trochou šťávy a sladkokyselou omáčku. Krátce povař a podávej s rýží.",
+    "tip": "Pro více zeleniny přidej sterilovanou kukuřici nebo papriku z plechovky."
+  },
+{
+  "id": 29,
+  "title": "Fancy palačinky s mascarpone a lesním ovocem",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": [
+    "meatless"
+  ],
+  "prep_method": [
+    "pan"
+  ],
+  "side_dish": [
+    "none"
+  ],
+  "ingredients": [
+    "200 ml mléka",
+    "2 vejce",
+    "100 g hladké mouky",
+    "špetka soli",
+    "olej",
+    "125 g mascarpone",
+    "2 lžíce zakysané smetany",
+    "1 lžíce medu nebo javorového sirupu",
+    "hrst čerstvého lesního ovoce",
+    "moučkový cukr na posypání"
+  ],
+  "instructions": "Smíchej mléko, vejce, mouku a sůl do hladkého těsta. Usmaž palačinky z obou stran dozlatova. Mezitím smíchej mascarpone, zakysanou smetanu a med do jemného krému. Palačinky namaž krémem, přelož nebo zaroluj, ozdob lesním ovocem a popraš moučkovým cukrem.",
+  "tip": "Pro extra efekt přelij palačinky trochou rozpuštěné čokolády nebo zkaramelizuj ovoce na pánvi s trochou cukru."
+},
+{
+  "id": 30,
+  "title": "Zapečená vejce s artyčoky a parmezánem",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": ["meatless"],
+  "prep_method": ["oven"],
+  "side_dish": ["bread"],
+  "ingredients": [
+    "1 sklenice nakládaných artyčokových srdcí",
+    "4 vejce",
+    "80 g strouhaného parmezánu",
+    "2 lžíce smetany",
+    "čerstvý tymián nebo rozmarýn",
+    "sůl a pepř"
+  ],
+  "instructions": "Artyčoky dej do zapékací misky, přelij smetanou, posyp sýrem a vyklepni vejce navrch. Peč 10–15 minut na 180 °C, dokud bílek neztuhne. Ozdob bylinkami.",
+  "tip": "Skvělé s čerstvým pečivem nebo bagetkou."
+},
+{
+  "id": 31,
+  "title": "Rýžová miska s pečeným květákem, tahini dresinkem a granátovým jablkem",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "medium",
+  "type": ["vegan"],
+  "prep_method": ["oven", "one_pot"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "400 g květáku (růžičky)",
+    "2 lžíce olivového oleje",
+    "1 lžička uzené papriky",
+    "1 lžíce citronové šťávy",
+    "3 lžíce tahini pasty",
+    "1 lžička sušeného česneku",
+    "hrst semínek granátového jablka",
+    "250 g syrové rýže (např. jasmínové nebo basmati)",
+    "sůl a pepř"
+  ],
+  "instructions": "Rýži uvař podle návodu v osolené vodě. Květák promíchej s olejem, paprikou a solí, peč 25 minut na 200 °C dozlatova. Mezitím smíchej tahini, citron, česnek, trochu vody, sůl a pepř na dresink. Servíruj rýži s pečeným květákem, přelij tahini omáčkou a posyp semínky granátového jablka.",
+  "tip": "Pro extra chuť můžeš do rýže přidat trochu citronové šťávy nebo čerstvé bylinky těsně před servírováním."
+},
+{
+  "id": 32,
+  "title": "Zapečené mleté maso s bramborovými noky a sýrem",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "medium",
+  "type": ["with_meat"],
+  "prep_method": ["oven", "pan"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "400 g mletého masa (hovězí nebo směs)",
+    "1 lžíce rajčatového protlaku",
+    "1 lžička worcesterové omáčky",
+    "1 lžička sušeného česneku",
+    "1 lžička sladké papriky",
+    "400 g bramborových noků",
+    "70 g strouhaného sýra (např. čedar)",
+    "olej na opékání",
+    "sůl a pepř"
+  ],
+  "instructions": "Na pánvi opeč mleté maso s olejem, česnekem, paprikou, protlakem a worcesterem. Osol a opepři. Vmíchej noky a vše přendej do zapékací misky. Posyp sýrem a zapeč v troubě na 200 °C asi 20 minut dozlatova.",
+  "tip": "Můžeš přidat i lžíci zakysané smetany nebo pár kapek citronu pro svěžest."
+},
+{
+  "id": 33,
+  "title": "Mac and Cheese – krémové těstoviny se sýrovou omáčkou",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": ["meatless"],
+  "prep_method": ["one_pot"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "300 g těstovin (např. kolínka, makaróny)",
+    "2 lžíce másla",
+    "2 lžíce hladké mouky",
+    "400 ml mléka",
+    "150 g strouhaného sýra (např. čedar)",
+    "1/2 lžičky hořčice (např. dijonské nebo hořčičné pasty)",
+    "sůl a pepř"
+  ],
+  "instructions": "Uvař těstoviny podle návodu. V jiném hrnci rozpusť máslo, přidej mouku a krátce osmahni. Postupně vmíchej mléko a míchej, dokud směs nezhoustne. Přidej sýr a hořčici, dochuť solí a pepřem. Smíchej s těstovinami a ihned podávej.",
+  "tip": "Chceš křupavou verzi? Přendej do zapékací misky, posyp sýrem a zapeč 10 minut."
+},
+{
+  "id": 34,
+  "title": "Zapečené těstoviny s ricottou a špenátem",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": ["meatless"],
+  "prep_method": ["oven", "one_pot"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "300 g těstovin (např. penne nebo fusilli)",
+    "250 g ricotty",
+    "100 g chlazeného baby špenátu",
+    "1 vejce",
+    "1/2 lžičky muškátového oříšku",
+    "sůl a pepř",
+    "50 g strouhaného sýra na posypání"
+  ],
+  "instructions": "Uvař těstoviny podle návodu. Špenát krátce spař horkou vodou nebo na pánvi nechej zavadnout. V míse smíchej ricottu, vejce, špenát, muškát, sůl a pepř. Promíchej s těstovinami, dej do zapékací misky, posyp sýrem a peč 20 minut na 200 °C.",
+  "tip": "Použij čerstvý baby špenát – dodá jídlu svěžest a výraznější barvu."
+},
+{
+  "id": 35,
+  "title": "Pita kapsa s hummusem, olivami a jogurtovým dipem",
+  "prep_time": "under_10",
+  "portions": 4,
+  "difficulty_level": "very_easy",
+  "type": ["meatless"],
+  "prep_method": ["no_cooking"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "4 pita chleby",
+    "200 g hummusu (může být už ochucený)",
+    "100 g černých oliv bez pecek",
+    "100 g řeckého jogurtu",
+    "1 lžička citronové šťávy",
+    "1 lžička drceného sušeného česneku",
+    "1/2 lžičky sušené máty nebo tymiánu",
+    "hrst listového salátu nebo rukoly",
+    "sůl a pepř"
+  ],
+  "instructions": "Jogurt smíchej s citronovou šťávou, mátou, česnekem a špetkou soli. Pita kapsy nahřej nebo opeč. Naplň hummusem, salátem, olivami. Pokapej jogurtem a ihned podávej.",
+  "tip": "Pro extra chuť můžeš přidat i lžíci granátového sirupu nebo opražené piniové oříšky."
+},
+{
+  "id": 36,
+  "title": "Smažená rýže s vejcem a zeleninou",
+  "prep_time": "under_20",
+  "portions": 4,
+  "difficulty_level": "easy",
+  "type": ["meatless"],
+  "prep_method": ["pan"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "300 g vařené rýže (ideálně vychlazené)",
+    "4 vejce",
+    "150 g mražené zeleninové směsi (mrkev, hrášek, kukuřice)",
+    "2 lžíce sójové omáčky",
+    "1 lžička sezamového oleje nebo rostlinného oleje",
+    "sůl a pepř"
+  ],
+  "instructions": "Na velké pánvi rozehřej olej, přidej zeleninu a krátce restuj. Přidej rýži a promíchej. Uprostřed vytvoř důlek, rozklekni vejce a míchej, dokud neztuhnou. Smíchej s rýží, dochuť sójovou omáčkou, solí a pepřem. Ihned podávej.",
+  "tip": "Použij rýži uvařenou předem – ideálně z předchozího dne, bude méně lepit a lépe se smaží."
+},
+{
+  "id": 37,
+  "title": "Domácí kuřecí nugetky s jogurtovým dipem",
+  "prep_time": "over_20",
+  "portions": 4,
+  "difficulty_level": "medium",
+  "type": ["with_meat"],
+  "prep_method": ["oven", "pan"],
+  "side_dish": ["none"],
+  "ingredients": [
+    "500 g mletého kuřecího masa",
+    "1 vejce",
+    "3 lžíce strouhanky",
+    "1/2 lžičky uzené papriky",
+    "1/2 lžičky sušeného česneku",
+    "sůl a pepř",
+    "olej na opečení",
+    "150 g bílého jogurtu",
+    "1 lžička citronové šťávy",
+    "1/2 lžičky sušené máty nebo tymiánu"
+  ],
+  "instructions": "Smíchej maso s vejcem, strouhankou, česnekem, paprikou, solí a pepřem. Vytvaruj malé nugetky. Opeč je na pánvi dozlatova nebo peč v troubě 20 minut na 200 °C. Mezitím smíchej jogurt, citron a bylinky na dip. Podávej teplé nugetky s dipem.",
+  "tip": "Do masa můžeš přidat i nastrouhaný sýr nebo lžíci hořčice pro výraznější chuť."
+}
 ]
