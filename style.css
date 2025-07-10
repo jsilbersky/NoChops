@@ -1,5 +1,5 @@
 :root {
-  --bg-main: #fefefe;
+  --bg-main: #ffffff;
   --bg-card: #ffffff;
   --text-main: #2a2a2a;
   
@@ -154,7 +154,7 @@ label:has(input[type="checkbox"]:checked) {
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: var(--radius);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.19);
   transition: var(--transition);
 }
 
@@ -271,4 +271,19 @@ button.remove-favorite:hover {
   background-color: #ffe3e3;
 }
 
+.recipe-image {
+  width: 100%;
+  max-width: 600px;       /* nebo libovolná šířka */
+  aspect-ratio: 16 / 9;    /* poměr stran na šířku – můžeš upravit */
+  overflow: hidden;
+  border-radius: 12px;     /* volitelně zaoblení rohu */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* jemný stín */
+  margin-bottom: 1rem;
+}
 
+.recipe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* obrázek se ořízne, ale vyplní prostor */
+  display: block;
+}

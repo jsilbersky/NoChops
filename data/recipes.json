@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Červená čočka s kokosovým mlékem a mraženou zeleninou",
+    "title": "Červená čočka s kokosovým mlékem a zeleninou",
+    "image": "red lentil curry.webp",
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "easy",
@@ -27,6 +28,7 @@
   {
     "id": 2,
     "title": "Zapečené gnocchi s rajčatovou omáčkou, tuňákem a mozzarellou",
+    "image": "Baked gnocchi with tomato sauce, tuna and mozzarella.webp",
     "prep_time": "under_20",
     "portions": 4,
     "difficulty_level": "medium",

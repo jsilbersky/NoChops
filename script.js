@@ -73,7 +73,7 @@ function renderRecipes() {
 
   if (selectedDifficulty) {
     const label = difficultySelect.options[difficultySelect.selectedIndex].text;
-    createBadge(`🧩 ${label}`, () => {
+    createBadge(`🧹 ${label}`, () => {
       difficultySelect.value = "";
       renderRecipes();
     });
@@ -117,11 +117,14 @@ function renderRecipes() {
     wrapper.innerHTML = `
       <div class="recipe-header">
         <h3>${r.title}</h3>
-        ${heartHTML}
       </div>
+      <div class="recipe-image">
+        <img src="images/${r.image}" alt="${r.title}">
+      </div>
+      ${heartHTML}
       <div class="recipe-detail">
         <p><strong>⏱️ Doba přípravy:</strong> ${translatePrepTime(r.prep_time)}</p>
-        <p><strong>🧩 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
+        <p><strong>🧹 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
         <p><strong>🍴 Typ:</strong> ${r.type.map(translateType).join(", ")}</p>
         <p><strong>🍲 Způsob:</strong> ${r.prep_method.map(translateMethod).join(", ")}</p>
         <p><strong>🥔 Příloha:</strong> ${r.side_dish ? r.side_dish.map(translateSideDish).join(", ") : ""}</p>
@@ -159,9 +162,12 @@ function renderFavorites() {
         <h3>${r.title}</h3>
         <button class="remove-favorite" data-id="${r.id}">❌ Odebrat z oblíbených</button>
       </div>
+      <div class="recipe-image">
+        <img src="images/${r.image}" alt="${r.title}">
+      </div>
       <div class="recipe-detail">
         <p><strong>⏱️ Doba přípravy:</strong> ${translatePrepTime(r.prep_time)}</p>
-        <p><strong>🧩 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
+        <p><strong>🧹 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
         <p><strong>🍴 Typ:</strong> ${r.type.map(translateType).join(", ")}</p>
         <p><strong>🍲 Způsob:</strong> ${r.prep_method.map(translateMethod).join(", ")}</p>
         <p><strong>🥔 Příloha:</strong> ${r.side_dish ? r.side_dish.map(translateSideDish).join(", ") : ""}</p>
@@ -235,14 +241,12 @@ function showPage(page) {
   const favoritesPage = document.getElementById("favorites-page");
   const settingsPage = document.getElementById("settings-page");
 
-  // Nejprve vše schováme
   filters.classList.add("hidden");
   recipeList.classList.add("hidden");
   selectedFilters.classList.add("hidden");
   favoritesPage.classList.add("hidden");
   settingsPage.classList.add("hidden");
 
-  // A zobrazíme jen požadovanou sekci
   if (page === "main") {
     filters.classList.remove("hidden");
     recipeList.classList.remove("hidden");
