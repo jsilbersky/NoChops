@@ -19,8 +19,8 @@
   <div class="branding">
     <img src="images/nochoplogo.webp" alt="Logo Kuchařka bez krájení" class="logo" />
     <h1>
-      Recepty bez krájení
-      <span>Blesková jídla bez zbytečné námahy</span>
+      NoChop
+      <span>Obědy a večeře rychle, bez krájení</span>
     </h1>
   </div>
 
@@ -30,24 +30,14 @@
         <p><strong>⏱️ Doba přípravy:</strong></p>
         <select id="prep-time">
           <option value="">– Vyber –</option>
-          <option value="under_10">Do 10 minut</option>
-          <option value="under_20">Do 20 minut</option>
-          <option value="over_20">Do 30 minut</option>
-        </select>
-      </div>
-
-      <div class="filter">
-        <p><strong>🧩 Náročnost:</strong></p>
-        <select id="difficulty-level">
-          <option value="">– Vyber –</option>
-          <option value="very_easy">Smíchej a jez</option>
-          <option value="easy">Vaření pro líné dny</option>
-          <option value="medium">Skoro jako šéfkuchař</option>
+          <option value="under_15">Do 15 minut</option>
+          <option value="under_30">Do 30 minut</option>
+          <option value="over_30">Nad 30 minut</option>
         </select>
       </div>
 
     <div class="filter">
-  <p><strong>🍴 Typ receptu:</strong></p>
+  <p><strong>🥗 Typ receptu:</strong></p>
   <fieldset class="options">
     <label>
       <input type="checkbox" value="with_meat" hidden>
@@ -65,7 +55,7 @@
 </div>
 
 <div class="filter">
-  <p><strong>🔧 Co musím udělat:</strong></p>
+  <p><strong>🍳 Co musím udělat:</strong></p>
   <fieldset class="options">
     <label>
       <input type="checkbox" value="one_pot" hidden>
@@ -137,9 +127,26 @@
     <button onclick="showPage('main')">📖 Recepty</button>
     <button onclick="showPage('favorites')">💛 Oblíbené</button>
     <button onclick="showPage('settings')">⚙️ Nastavení</button>
+    <button onclick="openModal()">👍 Podpořit</button>
+
   </nav>
 
   <!-- JavaScript -->
   <script src="script.js"></script>
+
+  <div id="support-modal" class="modal hidden">
+  <div class="modal-content">
+    <p>
+  Tato aplikace je <strong>zdarma</strong>.<br>
+  Líbí se ti? Můžeš mě podpořit dobrovolným příspěvkem. 🙂
+</p>
+    <div class="modal-buttons">
+      <button onclick="closeModal()">Zavřít</button>
+      <button onclick="window.open('https://buymeacoffee.com/tvojejmeno', '_blank')">💚 Přispět</button>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>

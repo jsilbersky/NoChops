@@ -1,5 +1,4 @@
 const prepTimeSelect = document.getElementById("prep-time");
-const difficultySelect = document.getElementById("difficulty-level");
 const typeCheckboxes = document.querySelectorAll("input[value^='with_meat'], input[value^='meatless'], input[value^='vegan']");
 const methodCheckboxes = document.querySelectorAll("input[value^='one_pot'], input[value^='pan'], input[value^='oven'], input[value^='no_cooking']");
 const sideDishCheckboxes = document.querySelectorAll("input[value^='bread'], input[value^='rice'], input[value^='salad'], input[value^='pasta'], input[value^='none']");
@@ -56,7 +55,6 @@ function attachFavoriteListeners() {
 
 function renderRecipes() {
   const selectedPrepTime = prepTimeSelect.value;
-  const selectedDifficulty = difficultySelect.value;
   const selectedTypes = getSelectedValues(typeCheckboxes);
   const selectedMethods = getSelectedValues(methodCheckboxes);
   const selectedSides = getSelectedValues(sideDishCheckboxes);
@@ -71,13 +69,6 @@ function renderRecipes() {
     });
   }
 
-  if (selectedDifficulty) {
-    const label = difficultySelect.options[difficultySelect.selectedIndex].text;
-    createBadge(`🧹 ${label}`, () => {
-      difficultySelect.value = "";
-      renderRecipes();
-    });
-  }
 
   [...typeCheckboxes, ...methodCheckboxes, ...sideDishCheckboxes].forEach(cb => {
     if (cb.checked) {
@@ -91,11 +82,10 @@ function renderRecipes() {
 
   const filtered = recipes.filter(r => {
     const matchTime = !selectedPrepTime || r.prep_time === selectedPrepTime;
-    const matchDifficulty = !selectedDifficulty || r.difficulty_level === selectedDifficulty;
     const matchType = selectedTypes.length === 0 || selectedTypes.some(t => r.type.includes(t));
     const matchMethod = selectedMethods.length === 0 || selectedMethods.some(m => r.prep_method.includes(m));
     const matchSides = selectedSides.length === 0 || selectedSides.some(s => r.side_dish && r.side_dish.includes(s));
-    return matchTime && matchDifficulty && matchType && matchMethod && matchSides;
+    return matchTime && matchType && matchMethod && matchSides;
   });
 
   recipeList.innerHTML = "";
@@ -111,8 +101,10 @@ function renderRecipes() {
 
     const isFav = favorites.includes(Number(r.id));
     const heartHTML = isFav
-      ? `<button class="favorite added" data-id="${r.id}" disabled>✅ Recept je v oblíbených</button>`
-      : `<button class="favorite" data-id="${r.id}">💛 Přidat do oblíbených</button>`;
+  ? `<button class="favorite added" data-id="${r.id}" title="Recept je v oblíbených">✅ Recept je v oblíbených</button>`
+  : `<button class="favorite" data-id="${r.id}">💛 Přidat do oblíbených</button>`;
+
+
 
     wrapper.innerHTML = `
       <div class="recipe-header">
@@ -124,7 +116,6 @@ function renderRecipes() {
       ${heartHTML}
       <div class="recipe-detail">
         <p><strong>⏱️ Doba přípravy:</strong> ${translatePrepTime(r.prep_time)}</p>
-        <p><strong>🧹 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
         <p><strong>🍴 Typ:</strong> ${r.type.map(translateType).join(", ")}</p>
         <p><strong>🍲 Způsob:</strong> ${r.prep_method.map(translateMethod).join(", ")}</p>
         <p><strong>🥔 Příloha:</strong> ${r.side_dish ? r.side_dish.map(translateSideDish).join(", ") : ""}</p>
@@ -160,14 +151,14 @@ function renderFavorites() {
     wrapper.innerHTML = `
       <div class="recipe-header">
         <h3>${r.title}</h3>
-        <button class="remove-favorite" data-id="${r.id}">❌ Odebrat z oblíbených</button>
-      </div>
-      <div class="recipe-image">
-        <img src="images/${r.image}" alt="${r.title}">
+          </div>
+          <div class="recipe-image">
+          <img src="images/${r.image}" alt="${r.title}">
+          </div>
+          <button class="remove-favorite" data-id="${r.id}">❌ Odebrat z oblíbených</button>
       </div>
       <div class="recipe-detail">
         <p><strong>⏱️ Doba přípravy:</strong> ${translatePrepTime(r.prep_time)}</p>
-        <p><strong>🧹 Náročnost:</strong> ${translateDifficulty(r.difficulty_level)}</p>
         <p><strong>🍴 Typ:</strong> ${r.type.map(translateType).join(", ")}</p>
         <p><strong>🍲 Způsob:</strong> ${r.prep_method.map(translateMethod).join(", ")}</p>
         <p><strong>🥔 Příloha:</strong> ${r.side_dish ? r.side_dish.map(translateSideDish).join(", ") : ""}</p>
@@ -186,24 +177,15 @@ function renderFavorites() {
 }
 
 prepTimeSelect.addEventListener("change", renderRecipes);
-difficultySelect.addEventListener("change", renderRecipes);
 typeCheckboxes.forEach(cb => cb.addEventListener("change", renderRecipes));
 methodCheckboxes.forEach(cb => cb.addEventListener("change", renderRecipes));
 sideDishCheckboxes.forEach(cb => cb.addEventListener("change", renderRecipes));
 
 function translatePrepTime(value) {
   return {
-    under_10: "Do 10 minut",
-    under_20: "Do 20 minut",
-    over_20: "Do 30 minut",
-  }[value] || value;
-}
-
-function translateDifficulty(value) {
-  return {
-    very_easy: "Smíchej a jez",
-    easy: "Vaření pro líné dny",
-    medium: "Skoro jako šéfkuchař",
+    under_15: "Do 15 minut",
+    under_30: "Do 30 minut",
+    over_30: "Nad 30 minut",
   }[value] || value;
 }
 
@@ -258,4 +240,12 @@ function showPage(page) {
   } else if (page === "settings") {
     settingsPage.classList.remove("hidden");
   }
+}
+
+function openModal() {
+  document.getElementById("support-modal").classList.remove("hidden");
+}
+
+function closeModal() {
+  document.getElementById("support-modal").classList.add("hidden");
 }

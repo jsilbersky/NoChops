@@ -3,9 +3,8 @@
     "id": 1,
     "title": "Červená čočka s kokosovým mlékem a zeleninou",
     "image": "red lentil curry.webp",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -29,9 +28,8 @@
     "id": 2,
     "title": "Zapečené gnocchi s rajčatovou omáčkou, tuňákem a mozzarellou",
     "image": "Baked gnocchi with tomato sauce, tuna and mozzarella.webp",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "medium",
     "type": [
       "with_meat"
     ],
@@ -54,9 +52,8 @@
   {
     "id": 3,
     "title": "Tortilly s cizrnou, hummusem a zeleninou",
-    "prep_time": "under_10",
+    "prep_time": "under_15",
     "portions": 4,
-    "difficulty_level": "very_easy",
     "type": [
       "vegan"
     ],
@@ -78,9 +75,8 @@
   {
     "id": 4,
     "title": "Fazolová pánev s vejci a kukuřicí",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -103,9 +99,8 @@
   {
     "id": 5,
     "title": "Kuskus s tofu, hráškem a hoisin omáčkou",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -128,9 +123,8 @@
   {
     "id": 6,
     "title": "Polenta s fazolemi a sušenými rajčaty",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -152,9 +146,8 @@
   {
     "id": 7,
     "title": "Bulgur s grilovanou zeleninou a fetou",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "meatless"
     ],
@@ -176,9 +169,8 @@
   {
     "id": 8,
     "title": "Těstoviny s pestem, čočkou a sušenými rajčaty",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -200,9 +192,8 @@
 {
   "id": 9,
   "title": "Krémové gnocchi se špenátem a sýrem",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": [
     "meatless"
   ],
@@ -226,9 +217,8 @@
   {
     "id": 10,
     "title": "Zapečená polenta s fazolemi a sýrem",
-    "prep_time": "over_20",
+    "prep_time": "over_30",
     "portions": 4,
-    "difficulty_level": "medium",
     "type": [
       "meatless"
     ],
@@ -251,9 +241,8 @@
   {
     "id": 11,
     "title": "Pečené kuře s rajčaty a olivami",
-    "prep_time": "over_20",
+    "prep_time": "over_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -276,9 +265,8 @@
   {
     "id": 12,
     "title": "Arroz con pollo po česku",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -301,9 +289,8 @@
   {
     "id": 13,
     "title": "Zapečené těstoviny s klobásou a paprikou",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "medium",
     "type": [
       "with_meat"
     ],
@@ -326,9 +313,8 @@
  {
   "id": 14,
   "title": "Krémová rajčatová omáčka s balsamicem a slunečnicovými semínky",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": [
     "vegan"
   ],
@@ -355,9 +341,8 @@
   {
     "id": 15,
     "title": "No-chop polévka z máslové dýně",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -380,9 +365,8 @@
   {
   "id": 16,
   "title": "Jarní frittata bez krájení",
-  "prep_time": "over_20",
+  "prep_time": "over_30",
   "portions": 4,
-  "difficulty_level": "medium",
   "type": [
     "meatless"
   ],
@@ -412,9 +396,8 @@
 {
   "id": 17,
   "title": "Bramborovo-dýňový salát s fetou a pistáciemi",
-  "prep_time": "over_20",
+  "prep_time": "over_30",
   "portions": 4,
-  "difficulty_level": "medium",
   "type": [
     "meatless"
   ],
@@ -440,9 +423,8 @@
   {
     "id": 18,
     "title": "Gnocchi se sýrem feta a hráškem",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "meatless"
     ],
@@ -464,9 +446,8 @@
   {
     "id": 19,
     "title": "Krémová polévka z červené čočky a rajčat",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "vegan"
     ],
@@ -489,9 +470,8 @@
   {
     "id": 20,
     "title": "Tortilla wrap s mletým masem, fazolemi a sýrem",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -515,9 +495,8 @@
   {
     "id": 21,
     "title": "Mexická rýžová mísa s mletým hovězím, kukuřicí a rajčaty",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -540,9 +519,8 @@
   {
     "id": 22,
     "title": "Těstoviny s mletým masem, smetanou a hráškem",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -565,9 +543,8 @@
   {
     "id": 23,
     "title": "Zapečené bílé fazole po toskánsku",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "meatless"
     ],
@@ -590,9 +567,8 @@
   {
     "id": 24,
     "title": "Cajun krevety s rýží a kukuřicí",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -615,9 +591,8 @@
 {
   "id": 25,
   "title": "Křupavá sezamová cizrna s rýží a ponzu omáčkou",
-  "prep_time": "under_10",
+  "prep_time": "under_15",
   "portions": 4,
-  "difficulty_level": "very_easy",
   "type": [
     "vegan"
   ],
@@ -643,9 +618,8 @@
   {
     "id": 26,
     "title": "Furikake losos s rýží",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "medium",
     "type": [
       "with_meat"
     ],
@@ -667,9 +641,8 @@
   {
     "id": 27,
     "title": "Tandoori kuřecí stehna bez krájení",
-    "prep_time": "over_20",
+    "prep_time": "over_30",
     "portions": 4,
-    "difficulty_level": "medium",
     "type": [
       "with_meat"
     ],
@@ -692,9 +665,8 @@
   {
     "id": 28,
     "title": "Sladkokyselé masové kuličky s ananasem",
-    "prep_time": "under_20",
+    "prep_time": "under_30",
     "portions": 4,
-    "difficulty_level": "easy",
     "type": [
       "with_meat"
     ],
@@ -716,9 +688,8 @@
 {
   "id": 29,
   "title": "Fancy palačinky s mascarpone a lesním ovocem",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": [
     "meatless"
   ],
@@ -746,9 +717,8 @@
 {
   "id": 30,
   "title": "Zapečená vejce s artyčoky a parmezánem",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": ["meatless"],
   "prep_method": ["oven"],
   "side_dish": ["bread"],
@@ -768,7 +738,6 @@
   "title": "Rýžová miska s pečeným květákem, tahini dresinkem a granátovým jablkem",
   "prep_time": "over_20",
   "portions": 4,
-  "difficulty_level": "medium",
   "type": ["vegan"],
   "prep_method": ["oven", "one_pot"],
   "side_dish": ["none"],
@@ -789,9 +758,8 @@
 {
   "id": 32,
   "title": "Zapečené mleté maso s bramborovými noky a sýrem",
-  "prep_time": "over_20",
+  "prep_time": "over_30",
   "portions": 4,
-  "difficulty_level": "medium",
   "type": ["with_meat"],
   "prep_method": ["oven", "pan"],
   "side_dish": ["none"],
@@ -812,9 +780,8 @@
 {
   "id": 33,
   "title": "Mac and Cheese – krémové těstoviny se sýrovou omáčkou",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": ["meatless"],
   "prep_method": ["one_pot"],
   "side_dish": ["none"],
@@ -833,9 +800,8 @@
 {
   "id": 34,
   "title": "Zapečené těstoviny s ricottou a špenátem",
-  "prep_time": "over_20",
+  "prep_time": "over_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": ["meatless"],
   "prep_method": ["oven", "one_pot"],
   "side_dish": ["none"],
@@ -854,9 +820,8 @@
 {
   "id": 35,
   "title": "Pita kapsa s hummusem, olivami a jogurtovým dipem",
-  "prep_time": "under_10",
+  "prep_time": "under_15",
   "portions": 4,
-  "difficulty_level": "very_easy",
   "type": ["meatless"],
   "prep_method": ["no_cooking"],
   "side_dish": ["none"],
@@ -877,9 +842,8 @@
 {
   "id": 36,
   "title": "Smažená rýže s vejcem a zeleninou",
-  "prep_time": "under_20",
+  "prep_time": "under_30",
   "portions": 4,
-  "difficulty_level": "easy",
   "type": ["meatless"],
   "prep_method": ["pan"],
   "side_dish": ["none"],
@@ -897,9 +861,8 @@
 {
   "id": 37,
   "title": "Domácí kuřecí nugetky s jogurtovým dipem",
-  "prep_time": "over_20",
+  "prep_time": "over_30",
   "portions": 4,
-  "difficulty_level": "medium",
   "type": ["with_meat"],
   "prep_method": ["oven", "pan"],
   "side_dish": ["none"],
